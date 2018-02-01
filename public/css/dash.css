@@ -1,0 +1,40 @@
+.new-post{
+    padding:16px 0;
+    border-bottom:1px solid #ccc;
+    margin-bottom:20px;
+}
+.new-post header,
+.posts header {
+    margin-bottom:20px;
+}
+.posts .post {
+    padding-left:10px;
+    border-left:3px solid #a21b24;
+    margin-bottom:30px;
+
+}
+.posts .post .info {
+    color:#aaa;
+    font-style:italic;
+}
+
+.error{
+    border:1px solid rgb(221, 28, 28);
+    background-color:rgb(196, 66, 66);
+    color:red;
+}
+.error,
+.success {
+    text-align:center;
+}
+.error ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.success{
+    border:1px solid green;
+    background-color:rgb(83, 223, 83);
+    color:green;
+
+}
